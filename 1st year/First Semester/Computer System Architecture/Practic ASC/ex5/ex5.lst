@@ -1,0 +1,42 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  extern exit, scanf               ; tell nasm that exit exists even if we won't be defining it
+     8                                  import exit msvcrt.dll    ; exit is a function that ends the calling process. It is defined in msvcrt.dll
+     9                                  import scanf msvcrt.dll                    ; msvcrt.dll contains exit, printf and all the other important C-runtime specific functions
+    10                                  
+    11                                  ; our data is declared here (the variables needed by our program)
+    12                                  segment data use32 class=data
+    13                                      ; ...
+    14 00000000 00<rept>                    mesaj_codat times 100 db 0 
+    15 00000064 257300                      format db "%s", 0
+    16 00000067 6D6573616A5F6F7269-         file_name db "mesaj_original.txt", 0
+    16 00000070 67696E616C2E747874-
+    16 00000079 00                 
+    17 0000007A 7700                        acces_mode_write db "w", 0
+    18 0000007C FFFFFFFF                    file_write_descriptor dd -1
+    19                                      
+    20                                  
+    21                                  ; our code starts here
+    22                                  segment code use32 class=code
+    23                                      start:
+    24                                          ; ...
+    25 00000000 68[00000000]                    push dword mesaj_codat
+    26 00000005 68[64000000]                    push dword format
+    27 0000000A FF15[00000000]                  call [scanf]
+    28 00000010 83C408                          add esp, 4*2
+    29                                          
+    30 00000013 BE[00000000]                    mov esi, mesaj_codat
+    31                                          repeta:
+    32 00000018 AC                                  lodsb
+    33 00000019 EBFD                                jmp repeta
+    34                                              
+    35                                          
+    36                                          
+    37                                      
+    38                                          ; exit(0)
+    39 0000001B 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+    40 0000001D FF15[00000000]                  call    [exit]       ; call exit to terminate the program

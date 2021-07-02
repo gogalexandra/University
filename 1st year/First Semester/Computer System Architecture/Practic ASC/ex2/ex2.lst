@@ -1,0 +1,208 @@
+     1                                  bits 32 ; assembling for the 32 bits architecture
+     2                                  
+     3                                  ; declare the EntryPoint (a label defining the very first instruction of the program)
+     4                                  global start        
+     5                                  
+     6                                  ; declare external functions needed by our program
+     7                                  
+     8                                  extern exit, scanf, fprintf, fclose, fopen; add printf and scanf as extern functions            
+     9                                  import exit msvcrt.dll    
+    10                                  import fprintf msvcrt.dll
+    11                                  import fopen msvcrt.dll
+    12                                  import fclose msvcrt.dll
+    13                                  import scanf msvcrt.dll     ; similar for scanf
+    14                                  
+    15                                  ; our data is declared here (the variables needed by our program)
+    16                                  segment data use32 class=data
+    17                                      ; ...
+    18 00000000 00                          n db 0 
+    19                                      
+    20 00000001 256300                      format db "%c", 0
+    21                                      
+    22 00000004 6E756D61722E747874-         filename_write db "numar.txt", 0
+    22 0000000D 00                 
+    23 0000000E 7700                        acces_mode_write db "w", 0
+    24 00000010 FFFFFFFF                    file_write_descriptor dd -1
+    25                                      
+    26 00000014 <res 00000014>              array resb 20
+    27                                  
+    28                                  ; our code starts here
+    29                                  segment code use32 class=code
+    30                                      start:
+    31                                          ; ...
+    32                                          
+    33 00000000 BF00000000                      mov edi, 0
+    34                                          
+    35                                          read_numbers:
+    36 00000005 68[00000000]                        push dword n
+    37 0000000A 68[01000000]                        push dword format
+    38 0000000F FF15[00000000]                      call [scanf]
+    39 00000015 83C408                              add esp, 4*2
+    40                                              
+    41 00000018 803D[00000000]21                    cmp [n], byte "!"
+    42 0000001F 7424                                je final
+    43                                              
+    44 00000021 803D[00000000]0A                    cmp [n], byte 0Ah
+    45 00000028 7419                                je read_another
+    46                                              
+    47                                              ; cmp [n], byte " "
+    48                                              ; je read_another
+    49                                              
+    50 0000002A 802D[00000000]30                    sub [n], byte 30h
+    51 00000031 A0[00000000]                        mov al, [n]
+    52                                              
+    53 00000036 A801                                test al, byte 1
+    54 00000038 7509                                jnz read_another
+    55                                                                       
+    56 0000003A 0430                                add al, byte 30h
+    57                                              
+    58 0000003C 8887[14000000]                      mov [array + edi], al
+    59 00000042 47                                  inc edi
+    60                                            
+    61                                              read_another:
+    62 00000043 E2C0                            loop read_numbers
+    63                                          
+    64                                          final:
+    65                                          
+    66 00000045 68[0E000000]                    push dword acces_mode_write
+    67 0000004A 68[04000000]                    push dword filename_write
+    68 0000004F FF15[00000000]                  call [fopen]
+    69 00000055 83C408                          add esp, 4*2
+    70                                          
+    71 00000058 A3[10000000]                    mov [file_write_descriptor], eax
+    72                                          
+    73 0000005D BE[14000000]                    mov esi, array
+    74 00000062 89F9                            mov ecx, edi
+    75 00000064 FC                              cld
+    76                                          
+    77                                          search_8:
+    78                                          
+    79 00000065 89CB                                mov ebx, ecx
+    80 00000067 B800000000                          mov eax, 0
+    81 0000006C AC                                  lodsb 
+    82 0000006D 3C38                                cmp al,byte 38h
+    83 0000006F 7402                                je print_8
+    84 00000071 EB17                                jmp here8
+    85                                              
+    86                                              print_8:
+    87 00000073 50                                      push eax
+    88 00000074 68[01000000]                            push dword format
+    89 00000079 FF35[10000000]                          push dword [file_write_descriptor]
+    90 0000007F FF15[00000000]                          call [fprintf]
+    91 00000085 83C40C                                  add esp, 4*3
+    92                                                  
+    93 00000088 89D9                                mov ecx, ebx
+    94                                              here8:
+    95 0000008A E2D9                            loop search_8
+    96                                          
+    97                                          
+    98 0000008C BE[14000000]                    mov esi, array
+    99 00000091 89F9                            mov ecx, edi
+   100 00000093 FC                              cld
+   101                                          
+   102                                          search_6:
+   103                                          
+   104 00000094 89CB                                mov ebx, ecx
+   105 00000096 B800000000                          mov eax, 0
+   106 0000009B AC                                  lodsb 
+   107 0000009C 3C36                                cmp al,byte 36h
+   108 0000009E 7402                                je print_6
+   109 000000A0 EB17                                jmp here6
+   110                                              
+   111                                              print_6:
+   112 000000A2 50                                      push eax
+   113 000000A3 68[01000000]                            push dword format
+   114 000000A8 FF35[10000000]                          push dword [file_write_descriptor]
+   115 000000AE FF15[00000000]                          call [fprintf]
+   116 000000B4 83C40C                                  add esp, 4*3
+   117                                                  
+   118 000000B7 89D9                                mov ecx, ebx
+   119                                              here6:
+   120                                              
+   121 000000B9 E2D9                            loop search_6
+   122                                          
+   123 000000BB BE[14000000]                    mov esi, array
+   124 000000C0 89F9                            mov ecx, edi
+   125 000000C2 FC                              cld
+   126                                          
+   127                                          search_4:
+   128                                          
+   129 000000C3 89CB                                mov ebx, ecx
+   130 000000C5 B800000000                          mov eax, 0
+   131 000000CA AC                                  lodsb 
+   132 000000CB 3C34                                cmp al, byte 34h
+   133 000000CD 7402                                je print_4
+   134 000000CF EB17                                jmp here4
+   135                                              
+   136                                              print_4:
+   137 000000D1 50                                      push eax
+   138 000000D2 68[01000000]                            push dword format
+   139 000000D7 FF35[10000000]                          push dword [file_write_descriptor]
+   140 000000DD FF15[00000000]                          call [fprintf]
+   141 000000E3 83C40C                                  add esp, 4*3
+   142                                                  
+   143 000000E6 89D9                                mov ecx, ebx
+   144                                              here4:
+   145                                              
+   146 000000E8 E2D9                            loop search_4
+   147                                          
+   148 000000EA BE[14000000]                    mov esi, array
+   149 000000EF 89F9                            mov ecx, edi
+   150 000000F1 FC                              cld
+   151                                          
+   152                                          search_2:
+   153                                          
+   154 000000F2 89CB                                mov ebx, ecx
+   155 000000F4 B800000000                          mov eax, 0
+   156 000000F9 AC                                  lodsb 
+   157 000000FA 3C32                                cmp al, byte 32h
+   158 000000FC 7402                                je print_2
+   159 000000FE EB17                                jmp here2
+   160                                              
+   161                                              print_2:
+   162 00000100 50                                      push eax
+   163 00000101 68[01000000]                            push dword format
+   164 00000106 FF35[10000000]                          push dword [file_write_descriptor]
+   165 0000010C FF15[00000000]                          call [fprintf]
+   166 00000112 83C40C                                  add esp, 4*3
+   167                                                  
+   168 00000115 89D9                                mov ecx, ebx
+   169                                              here2:
+   170                                          
+   171 00000117 E2D9                            loop search_2
+   172                                          
+   173 00000119 BE[14000000]                    mov esi, array
+   174 0000011E 89F9                            mov ecx, edi
+   175 00000120 FC                              cld
+   176                                          
+   177                                          search_0:
+   178                                          
+   179 00000121 89CB                                mov ebx, ecx
+   180 00000123 B800000000                          mov eax, 0
+   181 00000128 AC                                  lodsb 
+   182 00000129 3C30                                cmp al, byte 30h
+   183 0000012B 7402                                je print_0
+   184 0000012D EB17                                jmp here0
+   185                                              
+   186                                              print_0:
+   187 0000012F 50                                      push eax
+   188 00000130 68[01000000]                            push dword format
+   189 00000135 FF35[10000000]                          push dword [file_write_descriptor]
+   190 0000013B FF15[00000000]                          call [fprintf]
+   191 00000141 83C40C                                  add esp, 4*3
+   192                                                  
+   193 00000144 89D9                                mov ecx, ebx
+   194                                              
+   195                                              here0:
+   196                                              
+   197 00000146 E2D9                            loop search_0
+   198                                         
+   199                                  
+   200 00000148 FF35[10000000]                  push dword [file_write_descriptor]
+   201 0000014E FF15[00000000]                  call [fclose]
+   202 00000154 83C404                          add esp, 4
+   203                                          
+   204                                          
+   205                                          ; exit(0)
+   206 00000157 6A00                            push    dword 0      ; push the parameter for exit onto the stack
+   207 00000159 FF15[00000000]                  call    [exit]       ; call exit to terminate the program
