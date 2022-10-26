@@ -13,7 +13,7 @@ class HashTable:
         hashsum = 0
 
         # For each character in the key
-        for character in key:
+        for character in str(key):
             hashsum += ord(character)
 
         return hashsum % self.capacity
@@ -82,6 +82,8 @@ class HashTable:
 
         if self.size / self.capacity >= 0.7:
             self.rehash()
+
+        return index
 
     def remove(self, key):
         # Compute hash value of key
