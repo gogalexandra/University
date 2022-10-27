@@ -1,0 +1,44 @@
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe.config
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.pdb
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.AssemblyReference.cache
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Form1.resources
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Properties.Resources.resources
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.GenerateResource.cache
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.CoreCompileInputs.cache
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.exe
+C:\Users\Andrei\Documents\SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.pdb
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe.config
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.pdb
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.AssemblyReference.cache
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.SuggestedBindingRedirects.cache
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Form1.resources
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Properties.Resources.resources
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.GenerateResource.cache
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.CoreCompileInputs.cache
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.exe
+C:\Users\Bogdan\Desktop\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.pdb
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe.config
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.pdb
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.AssemblyReference.cache
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.SuggestedBindingRedirects.cache
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Form1.resources
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Properties.Resources.resources
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.GenerateResource.cache
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.CoreCompileInputs.cache
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.exe
+D:\Victor\Downloads\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.pdb
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe.config
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.exe
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\bin\Debug\Laborator2SGBD.pdb
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.AssemblyReference.cache
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.SuggestedBindingRedirects.cache
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Form1.resources
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.Properties.Resources.resources
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.GenerateResource.cache
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.csproj.CoreCompileInputs.cache
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.exe
+C:\UBB Sem 4\DBMS\Laborator2SGBD\Laborator2SGBD\Laborator2SGBD\obj\Debug\Laborator2SGBD.pdb

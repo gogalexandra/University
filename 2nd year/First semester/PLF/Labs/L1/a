@@ -1,0 +1,6 @@
+(defun insertN (l e n)
+  (cond
+       ((equal n 1) (cons e l))
+       (T (cons (car l) (insertN (cdr l) e (- n 1))))
+   )
+)

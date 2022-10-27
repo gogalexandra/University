@@ -1,0 +1,46 @@
+<h2>Teams</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="teams">
+      <li *ngFor="let team of teams" [class.selected]="team === selectedTeam" (click)="onSelect(team)">
+        <span class="badge">{{team.id}}</span>{{team.name}}{{team.drivers}}
+        <button class="delete" title="Delete team"
+                (click)="delete(team)">x
+        </button>
+      </li>
+    </ul>
+<!--    <button class="filterButton" (click)="orderCatsByAge()">Show cats by age</button>-->
+  </div>
+  <div class="form">
+    <form name="addTeam" [formGroup]="addTeamForm" (ngSubmit)="addTeamForm.valid && onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" #teamName type="text" formControlName="teamName"
+               [ngClass]="{'is-invalid': addTeamForm.get('teamName').touched && addTeamForm.get('teamName').invalid}"
+               required placeholder="name">
+      </div>
+      <div class="invalid-form" *ngIf="addTeamForm.get('teamName').touched && addTeamForm.get('teamName').invalid">
+        Team name is required
+      </div>
+      <button class="add-button" (click)="add(teamName.value)">Add team</button>
+    </form>
+  </div>
+</div>
+
+<div *ngIf="selectedTeam">
+  <h2>{{selectedTeam.name | uppercase}} was selected</h2>
+  <div *ngIf="selectedTeam" class="formInputFields">
+    <div>
+      <label>
+        Id: {{selectedTeam.id}}
+      </label>
+    </div>
+
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="selectedTeam.name" placeholder="name">
+    </div>
+
+    <button class="add-button" (click)="save()">Save</button>
+  </div>
+</div>

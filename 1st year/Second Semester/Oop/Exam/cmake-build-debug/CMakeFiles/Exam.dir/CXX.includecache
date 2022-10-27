@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam/PartOne/Examination.h
+string
+-
+iostream
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam/PartOne/Maximum.h
+vector
+-
+iostream
+-
+string
+-
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam/PartOne/main.cpp
+iostream
+-
+Examination.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam/PartOne/Examination.h
+Maximum.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam/PartOne/Maximum.h
+vector
+-
+

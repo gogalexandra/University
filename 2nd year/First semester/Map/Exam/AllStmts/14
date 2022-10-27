@@ -1,0 +1,6056 @@
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@710764ef
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+Model.Statements.RepeatStmt@710764ef
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+Model.Statements.RepeatStmt@710764ef
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@345fa5da) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 1; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 1; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 1; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 1; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 1; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 1; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 1; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 1; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 1; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 1; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 1; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 1; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 10 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 1; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 10 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 10 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Model.Statements.RepeatStmt@62f9f14e
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+Model.Statements.RepeatStmt@62f9f14e
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+Model.Statements.RepeatStmt@62f9f14e
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@1f7c7fc9) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(Model.Expressions.NotExp@25c33e1d) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: v=0
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+v=0
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+repeat{ 
+ (fork((print(v);v=v-1));v=v+1)
+}until v==3
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+fork((print(v);v=v-1))
+v=v+1
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+fork((print(v);v=v-1))
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+fork((print(v);v=v-1))
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+v=v+1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: print(v)
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+while(!(v==3)) do ( (fork((print(v);v=v-1));v=v+1) )
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+print(v)
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int x
+int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+v=v-1
+
+SymTable: v -> 2; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int x
+
+SymTable: v -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int y
+int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int y
+
+SymTable: v -> 3; x -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int z
+int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int z
+
+SymTable: v -> 3; x -> 0; y -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: int w
+x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+int w
+
+SymTable: v -> 3; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: x=1
+y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+x=1
+
+SymTable: v -> 3; w -> 0; x -> 0; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: y=2
+z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+y=2
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 0; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: z=3
+w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+z=3
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: w=4
+print(v*10)
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+w=4
+
+SymTable: v -> 3; w -> 0; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(v*10)
+
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> 3; w -> 4; x -> 1; y -> 2; z -> 3; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> -1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 0; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------
+PrgState 10 {
+ExeStack: 
+SymTable: v -> 1; 
+FileTable: 
+Heap: 
+Output: 0 1 2 30 
+--------------------------------

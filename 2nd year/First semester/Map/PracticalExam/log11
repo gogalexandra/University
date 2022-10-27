@@ -1,0 +1,1446 @@
+PrgState 0 {
+ExeStack: int cnt
+newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+Ref(int) v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int cnt
+newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+Ref(int) v1
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int cnt
+newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int cnt
+newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+int cnt
+
+SymTable: v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+int cnt
+
+SymTable: v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: newAlloc(v1 , 1)
+Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+newAlloc(v1 , 1)
+
+SymTable: cnt -> 0; v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+newAlloc(v1 , 1)
+
+SymTable: cnt -> 0; v1 -> (0, int); 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: Semaphore(cnt; rH(v1))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+Semaphore(cnt; rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+Semaphore(cnt; rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(print(rH(v1));acquire(cnt)))))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: acquire(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: acquire(cnt)
+wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+fork((acquire(cnt);(wH(v1, rH(v1)*10);(wH(v1, rH(v1)*2);(print(rH(v1));acquire(cnt))))))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: acquire(cnt)
+wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: acquire(cnt)
+print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v1, rH(v1)*10)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: acquire(cnt)
+wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*10)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*10)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 1
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*10)
+wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*10)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*10)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 10
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: wH(v1, rH(v1)*2)
+print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*2)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+wH(v1, rH(v1)*2)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 100
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: print(rH(v1))
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1))
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: print(rH(v1)-1)
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1)-1)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+acquire(cnt)
+
+print(rH(v1)-1)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+acquire(cnt)
+
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------
+PrgState 2 {
+ExeStack: 
+SymTable: cnt -> 0; v1 -> (1, int); 
+FileTable: 
+Heap: 1 -> 200
+Semaphore: Model.Utils.MySemaphore@6bc872c
+Output: 10 200 199 
+--------------------------------

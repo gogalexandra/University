@@ -1,0 +1,5 @@
+Alexandra,tester
+Simina,programmer
+Anca,tester
+Andi,programmer
+Alex,programmer

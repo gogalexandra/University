@@ -1,0 +1,57 @@
+<h2>Participations</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="participations">
+      <li *ngFor="let participation of participations" [class.selected]="participation === selectedParticipation" (click)="onSelect(participation)">
+        <span class="badge">{{participation.id}}</span>{{participation.team}}{{participation.race}}
+        <button class="delete" title="delete participation"
+                (click)="delete(participation)">x
+        </button>
+      </li>
+    </ul>
+<!--    <button class="filterButton" (click)="orderCatsByAge()">Show cats by age</button>-->
+  </div>
+  <div class="form">
+    <form name="addParticipation" [formGroup]="addParticipationForm" (ngSubmit)="addParticipationForm.valid && onSubmit()">
+      <div>
+        <label for="participationTeam">Team id:</label>
+        <input id="participationTeam" #participationTeam type="number" formControlName="participationTeam"
+               [ngClass]="{'is-invalid': addParticipationForm.get('participationTeam').touched && addParticipationForm.get('participationTeam').invalid}"
+               required placeholder="team id">
+      </div>
+      <div>
+        <label for="participationRace">Race id:</label>
+        <input id="participationRace" #participationRace type="number" formControlName="participationRace"
+               [ngClass]="{'is-invalid': addParticipationForm.get('participationRace').touched && addParticipationForm.get('participationRace').invalid}"
+               required placeholder="race id">
+      </div>
+      <div>
+        <label for="participationPoints">Points:</label>
+        <input id="participationPoints" #participationPoints type="number" formControlName="participationPoints"
+               [ngClass]="{'is-invalid': addParticipationForm.get('participationPoints').touched && addParticipationForm.get('participationPoints').invalid}"
+               required placeholder="points">
+      </div>
+      <div class="invalid-form" *ngIf="addParticipationForm.get('driverName').touched && addParticipationForm.get('driverName').invalid || addParticipationForm.get('participationRace').touched && addParticipationForm.get('participationRace').invalid">
+        Participation team id or race id is required
+      </div>
+      <button class="add-button" (click)="add(+participationTeam.value, +participationRace.value, +participationPoints )" >Add participation</button>
+    </form>
+  </div>
+</div>
+
+<!--<div *ngIf="selectedParticipation">-->
+<!--  <h2>{{selectedParticipation.name | uppercase}} was selected</h2>-->
+<!--  <div *ngIf="selectedParticipation" class="formInputFields">-->
+<!--    <div>-->
+<!--      <label>-->
+<!--        Id: {{selectedParticipation.id}}-->
+<!--      </label>-->
+<!--    </div>-->
+
+<!--    <div>-->
+<!--      <label>Name: </label>-->
+<!--      <input [(ngModel)]="selectedParticipation.name" placeholder="name">-->
+<!--    </div>-->
+<!--    <button class="add-button" (click)="save()">Save</button>-->
+<!--  </div>-->
+<!--</div>-->

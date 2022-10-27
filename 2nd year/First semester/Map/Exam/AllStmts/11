@@ -1,0 +1,772 @@
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+bool b
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+bool b
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+int c
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+int c
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+b=true
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+b=true
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c = b ? 100 : 200
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c = b ? 100 : 200
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+(if(b) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+(if(b) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c = false ? 100 : 200
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c = false ? 100 : 200
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+(if(false) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+(if(false) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 100 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+bool b
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+bool b
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int c
+b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+int c
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+int c
+
+SymTable: b -> false; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: b=true
+c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+b=true
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+b=true
+
+SymTable: b -> false; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = b ? 100 : 200
+print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c = b ? 100 : 200
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c = b ? 100 : 200
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+(if(b) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+(if(b) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(c)
+c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: c = false ? 100 : 200
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c = false ? 100 : 200
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c = false ? 100 : 200
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+(if(false) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+(if(false) then(c=100)else(c=200))
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+c=100
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(c)
+
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 100 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: b -> true; c -> 100; 
+FileTable: 
+Heap: 
+Output: 100 100 
+--------------------------------

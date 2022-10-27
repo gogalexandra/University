@@ -1,0 +1,3676 @@
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4ad4fda5; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4ad4fda5; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4ad4fda5; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4ad4fda5; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4fb33dd2; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@4fb33dd2; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7bca2257; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7bca2257; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7bca2257; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7bca2257; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@5c77721c; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@1486fc69; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@a1f892a; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@3f666ba8; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@3f666ba8; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@3b8947ce; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@3b8947ce; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@6145bb48; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@6145bb48; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@6145bb48; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@6145bb48; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@45e8455c; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@55cd9e54; 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: test.in -> java.io.BufferedReader@7dccbea9; 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+String varf
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: varf=test.in
+open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+varf=test.in
+
+SymTable: varf -> ; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: open file(varf)
+int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+open file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: int varc
+readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+int varc
+
+SymTable: varf -> test.in; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: readFileStmt(varf, varc)
+print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+readFileStmt(varf, varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: print(varc)
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+print(varc)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+close file(varf)
+
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: varf -> test.in; varc -> 0; 
+FileTable: 
+Heap: 
+Output: 0 0 
+--------------------------------

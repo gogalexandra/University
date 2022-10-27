@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam Practice/Second Part/SaleItem.cpp
+SaleItem.h
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam Practice/Second Part/SaleItem.h
+
+/Users/alexcampean/Desktop/Facultate/SEM_2/OOP/Labs/Exam Practice/Second Part/SaleItem.h
+

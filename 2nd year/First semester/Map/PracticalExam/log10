@@ -1,0 +1,562 @@
+PrgState 0 {
+ExeStack: int b
+int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int a
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int b
+int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int a
+
+SymTable: 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int b
+int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int b
+int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int b
+
+SymTable: a -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int b
+
+SymTable: a -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; b -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: int c
+a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; b -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int c
+
+SymTable: a -> 0; b -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+int c
+
+SymTable: a -> 0; b -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: a=1
+b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 0; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+a=1
+
+SymTable: a -> 0; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+a=1
+
+SymTable: a -> 0; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: b=2
+c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+b=2
+
+SymTable: a -> 1; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+b=2
+
+SymTable: a -> 1; b -> 0; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: c=5
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+c=5
+
+SymTable: a -> 1; b -> 2; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+c=5
+
+SymTable: a -> 1; b -> 2; c -> 0; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+switch( a*10) 
+(case( b*c ) (print(a);print(b)))
+(case( 10 ) (print(100);print(200)))
+(default print(100) )
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+(if(a*10==b*c) then((print(a);print(b)))else((if(a*10==b*c) then((print(a);print(b)))else(print(100)))))
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+(if(a*10==b*c) then((print(a);print(b)))else((if(a*10==b*c) then((print(a);print(b)))else(print(100)))))
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+print(a)
+print(b)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+print(a)
+print(b)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+print(b)
+
+print(a)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+print(b)
+
+print(a)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+print(b)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+print(b)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 2 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+print(300)
+
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 2 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 2 300 
+--------------------------------
+PrgState 0 {
+ExeStack: 
+SymTable: a -> 1; b -> 2; c -> 5; 
+FileTable: 
+Heap: 
+Semaphore: Model.Utils.MySemaphore@121c213d
+Output: 1 2 300 
+--------------------------------

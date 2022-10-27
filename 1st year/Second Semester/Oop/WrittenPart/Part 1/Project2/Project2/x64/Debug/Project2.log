@@ -1,0 +1,58 @@
+﻿  main.cpp
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(77,1): error C2662: 'T *SmartPointer<T>::getElem(void)': cannot convert 'this' pointer from 'const T' to 'SmartPointer<int> &'
+          with
+          [
+              T=int
+          ]
+          and
+          [
+              T=SmartPointer<int>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(77,24): message : Conversion loses qualifiers
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\SmartPointer.h(10,5): message : see declaration of 'SmartPointer<int>::getElem'
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(76): message : while compiling class template member function 'Vector<SmartPointer<int>> Vector<SmartPointer<int>>::add(const T &)'
+          with
+          [
+              T=SmartPointer<int>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\main.cpp(80): message : see reference to function template instantiation 'Vector<SmartPointer<int>> Vector<SmartPointer<int>>::add(const T &)' being compiled
+          with
+          [
+              T=SmartPointer<int>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\main.cpp(79): message : see reference to class template instantiation 'Vector<SmartPointer<int>>' being compiled
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(77,1): error C2662: 'T *SmartPointer<T>::getElem(void)': cannot convert 'this' pointer from 'const T' to 'SmartPointer<std::string> &'
+          with
+          [
+              T=std::string
+          ]
+          and
+          [
+              T=SmartPointer<std::string>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(77,24): message : Conversion loses qualifiers
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\SmartPointer.h(10,5): message : see declaration of 'SmartPointer<std::string>::getElem'
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(76): message : while compiling class template member function 'Vector<SmartPointer<std::string>> Vector<SmartPointer<std::string>>::add(const T &)'
+          with
+          [
+              T=SmartPointer<std::string>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\main.cpp(90): message : see reference to function template instantiation 'Vector<SmartPointer<std::string>> Vector<SmartPointer<std::string>>::add(const T &)' being compiled
+          with
+          [
+              T=SmartPointer<std::string>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\main.cpp(89): message : see reference to class template instantiation 'Vector<SmartPointer<std::string>>' being compiled
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(26,1): error C2059: syntax error: '<'
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(25): message : while compiling class template member function 'Vector<SmartPointer<std::string>> Vector<SmartPointer<std::string>>::operator -(const T &)'
+          with
+          [
+              T=SmartPointer<std::string>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\main.cpp(92): message : see reference to function template instantiation 'Vector<SmartPointer<std::string>> Vector<SmartPointer<std::string>>::operator -(const T &)' being compiled
+          with
+          [
+              T=SmartPointer<std::string>
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(27,6): error C2065: 'it': undeclared identifier
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Vector.h(32,50): error C2065: 'it': undeclared identifier

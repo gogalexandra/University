@@ -1,0 +1,37 @@
+.title{
+    text-align: center;
+    font-family: Georgia, sans-serif;
+    font-size: 30px;
+}
+
+.header{
+    margin: auto;
+}
+
+.requirement{
+    text-align: left;
+    font-family: Georgia, sans-serif;
+    font-size: 15px;
+}
+
+#slideshow {
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+}
+
+#slideshow > div > img {
+    width: 300px;
+    height: 250px;
+}

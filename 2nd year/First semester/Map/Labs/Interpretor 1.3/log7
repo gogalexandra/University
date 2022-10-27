@@ -1,0 +1,189 @@
+PrgState{
+ExeStack: Ref(int) v
+newAlloc{varName='v , exp=20}
+print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+Ref(int) v
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+Ref(int) v
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+newAlloc{varName='v , exp=20}
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+newAlloc{varName='v , exp=20}
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Model.Statements.wH@4d405ef7
+print(5+rH(v))
+print(rH(v))
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Model.Statements.wH@4d405ef7
+print(5+rH(v))
+print(rH(v))
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: Model.Statements.wH@4d405ef7
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(v))Model.Statements.wH@4d405ef7
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(v))Model.Statements.wH@4d405ef7
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(v))
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(v))
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState{
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------

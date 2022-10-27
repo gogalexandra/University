@@ -1,0 +1,232 @@
+﻿  Source.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(506,37): error C2825: '_Alloc': must be a class or namespace when followed by '::'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(720): message : see reference to class template instantiation 'std::_Normal_allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(419): message : see reference to class template instantiation 'std::allocator_traits<_Alloc>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(419): message : see reference to alias template instantiation 'std::_Rebind_alloc_t<int,Car>' being compiled
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\List.h(66): message : see reference to class template instantiation 'std::vector<T1,T2>' being compiled
+          with
+          [
+              T1=Car,
+              T2=int
+          ]
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\List.h(65): message : while compiling class template member function 'void List<Car,int>::printReverse(std::ostream &)'
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Source.cpp(21): message : see reference to function template instantiation 'void List<Car,int>::printReverse(std::ostream &)' being compiled
+E:\Sem 2\Oop\WrittenPart\Part 1\Project2\Project2\Source.cpp(9): message : see reference to class template instantiation 'List<Car,int>' being compiled
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(506,45): error C2510: '_Alloc': left of '::' must be a class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(506,1): error C2061: syntax error: identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(299,27): error C2825: '_Ty': must be a class or namespace when followed by '::'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see reference to class template instantiation 'std::_Get_pointer_type<_Alloc,void>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(299,32): error C2510: '_Ty': left of '::' must be a class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(299,1): error C2061: syntax error: identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508,68): error C2039: 'type': is not a member of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see declaration of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(312,53): error C2039: 'type': is not a member of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see declaration of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(509): message : see reference to class template instantiation 'std::_Get_const_pointer_type<_Alloc,void>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(312,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(313,29): error C2825: '_Ty': must be a class or namespace when followed by '::'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(313,34): error C2510: '_Ty': left of '::' must be a class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(313,1): error C2061: syntax error: identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(314,44): error C2065: '_Ptrty': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(314,29): error C2923: 'std::pointer_traits': '_Ptrty' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(314,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(314,75): error C2146: syntax error: missing '>' before identifier '_Valty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(327,53): error C2039: 'type': is not a member of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see declaration of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(510): message : see reference to class template instantiation 'std::_Get_void_pointer_type<_Alloc,void>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(327,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(328,44): error C2065: '_Ptrty': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(328,29): error C2923: 'std::pointer_traits': '_Ptrty' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(339,53): error C2039: 'type': is not a member of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see declaration of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(511): message : see reference to class template instantiation 'std::_Get_const_void_pointer_type<_Alloc,void>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(339,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(340,44): error C2065: '_Ptrty': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(340,29): error C2923: 'std::pointer_traits': '_Ptrty' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(351,53): error C2039: 'type': is not a member of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(508): message : see declaration of 'std::_Get_pointer_type<_Alloc,void>'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(363): message : see reference to class template instantiation 'std::_Get_difference_type<_Ty,void>' being compiled
+          with
+          [
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(513): message : see reference to class template instantiation 'std::_Get_size_type<_Alloc,void>' being compiled
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(351,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(352,44): error C2065: '_Ptrty': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(352,29): error C2923: 'std::pointer_traits': '_Ptrty' is not a valid template type argument for parameter '_Ty'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(352,53): error C2955: 'std::pointer_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xutility(124): message : see declaration of 'std::pointer_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(527,1): error C3646: 'allocate': unknown override specifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(527,70): error C2065: '_Al': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(527,62): error C2275: '_Alloc': illegal use of this type as an expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(527,1): error C2226: syntax error: unexpected type 'std::_Normal_allocator_traits<_Alloc>::size_type'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(527,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(533,1): error C3646: 'allocate': unknown override specifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(533,26): error C2065: '_Al': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(533,18): error C2275: '_Alloc': illegal use of this type as an expression
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(533,1): error C2226: syntax error: unexpected type 'std::_Normal_allocator_traits<_Alloc>::size_type'
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(533,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(557,1): error C2061: syntax error: identifier 'pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(418,4): error C2027: use of undefined type 'std::_Replace_first_parameter<_Other,_Ty>'
+          with
+          [
+              _Other=Car,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(418): message : see declaration of 'std::_Replace_first_parameter<_Other,_Ty>'
+          with
+          [
+              _Other=Car,
+              _Ty=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(419): message : see reference to class template instantiation 'std::_Get_rebind_type<_Alloc,_Ty,void>' being compiled
+          with
+          [
+              _Alloc=int,
+              _Ty=Car
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(738): message : see reference to alias template instantiation 'std::_Normal_allocator_traits<_Alloc>::rebind_alloc<_Ty>' being compiled
+          with
+          [
+              _Alloc=int,
+              _Ty=Car
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(418,1): error C2061: syntax error: identifier 'type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(522,4): error C2794: 'type': is not a member of any direct or indirect base class of 'std::_Get_rebind_type<_Alloc,_Ty,void>'
+          with
+          [
+              _Alloc=int,
+              _Ty=Car
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(419,1): error C2938: 'std::_Normal_allocator_traits<_Alloc>::rebind_alloc' : Failed to specialize alias template
+          with
+          [
+              _Alloc=int
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(419,1): error C2938: 'std::_Rebind_alloc_t' : Failed to specialize alias template
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(423,76): error C2825: '_Alloc': must be a class or namespace when followed by '::'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(423,84): error C2510: '_Alloc': left of '::' must be a class/struct/union
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(423,1): error C2146: syntax error: missing '>' before identifier 'value_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(423,1): error C2062: type 'unknown-type' unexpected
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(424,1): error C2238: unexpected token(s) preceding ';'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(428,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(719): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(428,52): error C2039: 'pointer': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(428,1): error C2061: syntax error: identifier 'pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(429,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(719): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(429,52): error C2039: 'const_pointer': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(429,1): error C2061: syntax error: identifier 'const_pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(432,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(719): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(432,52): error C2039: 'size_type': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(432,1): error C2061: syntax error: identifier 'size_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(433,52): error C2955: 'std::allocator_traits': use of class template requires template argument list
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\xmemory(719): message : see declaration of 'std::allocator_traits'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(433,52): error C2039: 'difference_type': is not a member of 'std::allocator_traits<_Alloc>'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(433,1): error C2061: syntax error: identifier 'difference_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,30): error C2065: 'size_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,3): error C2065: 'difference_type': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,3): error C2065: 'pointer': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,3): error C2065: 'const_pointer': undeclared identifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,9): error C2923: 'std::_Vec_iter_types': 'size_type' is not a valid template type argument for parameter '_Size_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,9): error C2923: 'std::_Vec_iter_types': 'difference_type' is not a valid template type argument for parameter '_Difference_type'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,9): error C2923: 'std::_Vec_iter_types': 'pointer' is not a valid template type argument for parameter '_Pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,9): error C2923: 'std::_Vec_iter_types': 'const_pointer' is not a valid template type argument for parameter '_Const_pointer'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(437,1): error C2993: 'unknown-type': is not a valid type for non-type template parameter '_Test'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(440,53): error C3203: '_Vector_val': unspecialized class template can't be used as a template argument for template parameter '_Myvec', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(441,59): error C3203: '_Vector_val': unspecialized class template can't be used as a template argument for template parameter '_Myvec', expected a real type
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,71): error C2146: syntax error: missing ')' before identifier '_Count'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,5): error C3646: '_Count': unknown override specifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,5): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,5): error C2059: syntax error: ','
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,5): error C2059: syntax error: ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(455,1): error C2334: unexpected token(s) preceding '{'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,56): error C2146: syntax error: missing ')' before identifier '_Count'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C3646: '_Count': unknown override specifier
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,76): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,76): error C2143: syntax error: missing ';' before '&'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C2988: unrecognizable template declaration/definition
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C2059: syntax error: '&'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C2059: syntax error: ')'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(470,1): error C2334: unexpected token(s) preceding ':'; skipping apparent function body
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1751,1): fatal error C1004: unexpected end-of-file found

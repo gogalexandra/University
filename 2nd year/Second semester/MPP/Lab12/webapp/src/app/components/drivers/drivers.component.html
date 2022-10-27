@@ -1,0 +1,46 @@
+<h2>Drivers</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="drivers">
+      <li *ngFor="let dr of drivers | keys" (click)="onSelect(dr)" >
+        <span class="badge">{{dr[key]}}</span>
+        <button class="delete" title="delete driver"
+                (click)="delete(dr)">x
+        </button>
+
+      </li>
+    </ul>
+  </div>
+  <div class="form">
+    <form name="addDriver" [formGroup]="addDriverForm" (ngSubmit)="addDriverForm.valid && onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" #driverName type="text" formControlName="driverName"
+
+               required placeholder="name">
+      </div>
+      <div class="invalid-form" *ngIf="addDriverForm.get('driverName').touched && addDriverForm.get('driverName').invalid">
+        Driver Name is required
+      </div>
+      <button class="add-button" (click)="add(driverName.value)">Add driver</button>
+    </form>
+  </div>
+</div>
+
+<div *ngIf="selectedDriver">
+  <h2>{{selectedDriver.name}} was selected</h2>
+  <div *ngIf="selectedDriver" class="formInputFields">
+    <div>
+      <label>
+        Id: {{selectedDriver.id}}
+      </label>
+    </div>
+
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="selectedDriver.name" placeholder="name">
+    </div>
+
+    <button class="add-button" (click)="save()">Save</button>
+  </div>
+</div>

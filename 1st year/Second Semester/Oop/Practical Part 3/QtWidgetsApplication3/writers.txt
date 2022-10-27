@@ -1,0 +1,5 @@
+Alexandra,assistant
+Anca,junior
+Simina,junior
+Alex,senior
+Andi,senior

@@ -1,0 +1,7 @@
+(defun sub16(l)
+  (cond
+         ((and (numberp l) (eq (mod l 2) 0))(list (+ 1 l)) )
+         ((atom l) (list l) )
+         (t (list (mapcan #'(lambda(li)(sub16 li))l )))
+   )
+)

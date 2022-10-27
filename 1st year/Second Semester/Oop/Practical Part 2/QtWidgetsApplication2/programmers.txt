@@ -1,0 +1,4 @@
+Alexandra,0,10
+Tudor,3,4
+Simina,1,13
+Alex,10,10

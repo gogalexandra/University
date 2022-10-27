@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Tcp/.idea/Lab 2.iml" filepath="$PROJECT_DIR$/../Tcp/.idea/Lab 2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/MultiThread.iml" filepath="$PROJECT_DIR$/.idea/MultiThread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MultiThread-UDP/.idea/MultiThread-UDP.iml" filepath="$PROJECT_DIR$/../MultiThread-UDP/.idea/MultiThread-UDP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Partial/.idea/Partial.iml" filepath="$PROJECT_DIR$/../Partial/.idea/Partial.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Udp/.idea/Udp.iml" filepath="$PROJECT_DIR$/../Udp/.idea/Udp.iml" />
+    </modules>
+  </component>
+</project>

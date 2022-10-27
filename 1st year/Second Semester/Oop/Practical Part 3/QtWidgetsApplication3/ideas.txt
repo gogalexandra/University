@@ -1,0 +1,5 @@
+idea1,proposed,Alexandra,1
+idea2,proposed,Andi,2
+idea3,proposed,Alexandra,2
+idea4,accepted,Anca,2
+idea5,accepted,Alexandra,2

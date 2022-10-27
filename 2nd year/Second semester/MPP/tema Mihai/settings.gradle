@@ -1,0 +1,5 @@
+rootProject.name = 'ClientServer'
+include 'common'
+include 'server'
+include 'client'
+

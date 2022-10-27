@@ -1,0 +1,46 @@
+<h2>Races</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="races">
+      <li *ngFor="let race of races" [class.selected]="race === selectedRace" (click)="onSelect(race)">
+        <span class="badge">{{race.id}}</span>{{race.name}}
+        <button class="delete" title="Delete race"
+                (click)="delete(race)">x
+        </button>
+      </li>
+    </ul>
+<!--    <button class="filterButton" (click)="orderCatsByAge()">Show cats by age</button>-->
+  </div>
+  <div class="form">
+    <form name="addRace" [formGroup]="addRaceForm" (ngSubmit)="addRaceForm.valid && onSubmit()">
+      <div>
+        <label for="name">Name:</label>
+        <input id="name" #raceName type="text" formControlName="raceName"
+               [ngClass]="{'is-invalid': addRaceForm.get('raceName').touched && addRaceForm.get('raceName').invalid}"
+               required placeholder="name">
+      </div>
+      <div class="invalid-form" *ngIf="addRaceForm.get('raceName').touched && addRaceForm.get('raceName').invalid">
+        Race Name is required
+      </div>
+      <button class="add-button" (click)="add(raceName.value)">Add race</button>
+    </form>
+  </div>
+</div>
+
+<div *ngIf="selectedRace">
+  <h2>{{selectedRace.name | uppercase}} was selected</h2>
+  <div *ngIf="selectedRace" class="formInputFields">
+    <div>
+      <label>
+        Id: {{selectedRace.id}}
+      </label>
+    </div>
+
+    <div>
+      <label>Name: </label>
+      <input [(ngModel)]="selectedRace.name" placeholder="name">
+    </div>
+
+    <button class="add-button" (click)="save()">Save</button>
+  </div>
+</div>

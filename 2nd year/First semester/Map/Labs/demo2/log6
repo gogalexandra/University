@@ -1,0 +1,1416 @@
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(rH(v))
+wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+print(rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: wH(v, 30)
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+wH(v, 30)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(5+rH(v))
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 30
+Output: 20 35 
+--------------------------------

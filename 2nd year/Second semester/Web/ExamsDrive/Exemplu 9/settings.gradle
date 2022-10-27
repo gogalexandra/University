@@ -1,0 +1,4 @@
+rootProject.name = 'Exemplu 9'
+include 'Core'
+include 'Web'
+

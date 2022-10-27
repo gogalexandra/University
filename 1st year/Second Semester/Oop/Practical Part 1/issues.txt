@@ -1,0 +1,5 @@
+problem1,open,Alexandra  ,
+problem2,closed,Alexandra,Anca  
+problem3,closed,Alexandra,Alex
+problem4,closed,Alex,Andi
+problem5,open,Simina,

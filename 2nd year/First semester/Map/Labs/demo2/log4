@@ -1,0 +1,1638 @@
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(int) v
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(v , 20)
+Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+newAlloc(v , 20)
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: Ref(Ref(int)) a
+newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+Ref(Ref(int)) a
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: newAlloc(a , v)
+print(v)
+print(a)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+newAlloc(a , v)
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: print(v)
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+print(v)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+print(a)
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------
+PrgState 1 {
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: (1, int) (2, Ref(int)) 
+--------------------------------

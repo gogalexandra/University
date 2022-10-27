@@ -1,0 +1,24 @@
+(defun sub6(tree level x)
+  (cond
+           ((and (atom tree)      (eq tree x)      (eq (mod level 2) 0)) T  )
+           ((and (atom tree)      (eq tree x)      (eq (mod level 2) 1)) nil)
+           ((and (atom tree) (not (eq tree x)))                          nil)
+           (t ( FUNCALL #'sau(mapcar #'(lambda (li) (sub6 li (+ level 1) x ))tree )))
+   )
+)
+(defun main (tree x)
+  (car (sub6 tree -1 x))
+)
+
+
+(defun sau(l)
+   (cond
+          ((null l) nil)
+         ( (atom l) NIL )
+         ( T (OR (CAR l) (sau (cdr l))))
+    )
+)
+
+(defun main2(tree x)
+  (sau (main tree x))
+)

@@ -1,0 +1,72 @@
+package Repository;
+
+import Model.Vehicle;
+
+public class Repo implements IRepo{
+    private Vehicle[] list;
+    private int currentIndex, size;
+
+    public Repo(){
+        super();
+        this.list = new Vehicle[100];
+        this.currentIndex = 0;
+        this.size = 100;
+    }
+
+    @Override
+    public void add(Vehicle v) throws Exception {
+        if (currentIndex >= size){
+            throw new Exception("List if full! Max size is: "+ size);
+        }
+        if (v.getRepairCost() < 0 ){
+            throw new Exception("Repair cost can not be negative! " + v.toString());
+        }
+        list[currentIndex++] = v;
+    }
+
+    @Override
+    public void remove(Vehicle v) throws Exception {
+        boolean found = false;
+        for(int i = 0; i < currentIndex; i++){
+            if ((list[i].getRepairCost() == v.getRepairCost() )&& (list[i].getClass() == v.getClass())) {
+                found = true;
+                if (i == currentIndex - 1)
+                    list[i] = null;
+                else {
+                    list[i] = list[currentIndex - 1];
+                }
+                currentIndex--;
+            }
+        }
+        if (!found){
+            throw new Exception("Specified vehicle not found!");
+        }
+    }
+
+    @Override
+    public Vehicle[] filer(int price) {
+        Vehicle[] result = new Vehicle[currentIndex];
+        int resultIndex = 0;
+        for(int i = 0; i < currentIndex; i++){
+            if(list[i].checkRepairCost(price)){
+                result[resultIndex++] = list[i];
+            }
+        }
+        return result;
+    }
+
+    @Override
+    public Vehicle[] getVehicles() {
+        return list;
+    }
+
+    @Override
+    public int getCurrentIndex() {
+        return currentIndex;
+    }
+
+    @Override
+    public void setCurrentIndex(int index) {
+        currentIndex = index;
+    }
+}

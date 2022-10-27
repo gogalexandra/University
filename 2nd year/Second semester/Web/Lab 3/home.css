@@ -1,0 +1,180 @@
+.bdy{
+    font-family: 'Varela Round', sans-serif;
+    background: #eee;
+    size: auto;
+}
+
+.navbar {
+    width: auto;
+    overflow: auto;
+    color: #e9ebee;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar2 {
+    width: 100%;
+    overflow: auto;
+    color: #e9ebee;
+    font-family: inherit;
+    display: block;
+    margin-top: 30px;
+    margin-left: 550px;
+    margin-right: auto;
+}
+
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+
+}
+
+.navbar2 a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+
+}
+
+.rightNavBar{
+    margin-left: 50px;
+}
+
+.firstContainer{
+    background-image: url("assets/tp-banner.jpg");
+    height: 440px;
+}
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.searchBtn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.input{
+    border-radius: 25px;
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.txt{
+    text-align: center;
+    color: #e9ebee;
+    font-family: inherit;
+}
+
+.banner{
+    width: 1400px;
+    height: 180px;
+    border-radius: 20px;
+    padding-left: 80px;
+    padding-top: 30px;
+}
+
+h3{
+    font-family: inherit;
+    font-size: 30px;
+    margin: 10px 0 20px;
+    padding-left: 120px;
+}
+
+button{
+    text-align: right;
+}
+
+h3::after {
+    content: "";
+    display: block;
+    width: 130px;
+    height: 5px;
+    background: #000000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+}
+.primePacks{
+    padding-left: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.videoCourses{
+    padding-left: 80px;
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.prime-pack {
+    background: #fff;
+    padding: 0px !important;
+    margin: 0px 0px 20px 0px;
+    border: 1px solid #eee;
+    width: 300px;
+}
+
+.ribbon-B span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #f0506e;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+    padding: 9px 10px 0px;
+    border-top-right-radius: 4px;
+    width: 75px;
+}
+
+.ribbon-V span {
+    position: relative;
+    display: block;
+    text-align: center;
+    background: #412572;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1;
+    padding: 9px 10px 0px;
+    border-top-right-radius: 4px;
+    width: 75px;
+}
+
+/*.pp{*/
+/*    width: 130px;*/
+/*    height: 300px;*/
+/*}*/
+
+.pp-body{
+    min-height: 200px;
+    padding: 5pt 10pt 10pt 10pt!important;
+}
+
+.actual-price{
+    color: crimson;
+    font-size: 15px;
+    text-decoration: line-through;
+}
+
+.discount-amount{
+    color: forestgreen;
+    font-size: 15px;
+}
+
+.buyButton{
+    width: 100%;
+    height: 30px;
+    background-color: forestgreen;
+    color: white;
+}

@@ -1,0 +1,259 @@
+PrgState{
+ExeStack: Ref(int) v
+newAlloc{varName='v , exp=20}
+Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+
+
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+Ref(int) v
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+Ref(int) v
+SymTable: 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='v , exp=20}
+Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+newAlloc{varName='v , exp=20}
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+newAlloc{varName='v , exp=20}
+SymTable: v -> (0, int); 
+FileTable: 
+Heap: 
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: Ref(Ref(int)) a
+newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+Ref(Ref(int)) a
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+Ref(Ref(int)) a
+SymTable: v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: newAlloc{varName='a , exp=v}
+print(rH(v))
+print(5+rH(rH(a)))
+
+
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+print(5+rH(rH(a)))
+newAlloc{varName='a , exp=v}
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+print(5+rH(rH(a)))
+newAlloc{varName='a , exp=v}
+SymTable: a -> (0, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+print(5+rH(rH(a)))
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(rH(v))
+print(5+rH(rH(a)))
+
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(rH(a)))print(rH(v))
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(rH(a)))print(rH(v))
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(rH(a)))
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: print(5+rH(rH(a)))
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 20 
+--------------------------------
+PrgState{
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 20 25 
+--------------------------------
+PrgState{
+ExeStack: 
+SymTable: a -> (2, Ref(int)); v -> (1, int); 
+FileTable: 
+Heap: 1 -> 20
+2 -> (1, int)
+Output: 20 25 
+--------------------------------

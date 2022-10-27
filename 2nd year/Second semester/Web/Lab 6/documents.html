@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Page</title>
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+    <meta http-equiv="Expires" content="0"/>
+    <!-- to make it looking good im using bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <script src="script.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div class="container mt-5">
+
+    <button type="button" class="btn btn-primary float-right" data-toggle="modal" data-target="#userformModal">Add</button>
+    <button type="button" class="btn btn-primary float-right" onclick="get_all_documents()">Get documents</button>
+
+    <br>
+    <h2>Documents</h2>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Author</th>
+            <th>Number of pages</th>
+            <th>Type</th>
+            <th>Format</th>
+        </tr>
+        </thead>
+        <tbody id="users_data">
+
+        </tbody>
+    </table>
+
+    <div class="modal fade" id="userformModal" data-backdrop="static" data-keyboard="false" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Document Form</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form action="" method="POST" id="user_form">
+                        <div class="form-group">
+                            <label>Title</label>
+                            <input type="text" name="title" id="title" class="form-control">
+                            <input type="hidden" name="id" id="id" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Author</label>
+                            <input type="text" name="author" id="author" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Number of pages</label>
+                            <input type="text" name="noOfPages" id="noOfPages" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Type</label>
+                            <input type="text" name="type" id="type" class="form-control">
+                        </div>
+
+                        <div class="form-group">
+                            <label>Format</label>
+                            <input type="text" name="format" id="format" class="form-control">
+                        </div>
+                        <br><br>
+                        <button type="submit" class="btn btn-success float-right">Submit</button>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- container -->
+</body>
+</html>

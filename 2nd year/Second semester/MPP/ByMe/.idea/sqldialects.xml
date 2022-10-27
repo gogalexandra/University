@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/server/src/main/java/server/repository/DBpersistence/CarDBRepository.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java/server/repository/DBpersistence/DriverDBRepository.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java/server/repository/DBpersistence/ParticipationDBRepository.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java/server/repository/DBpersistence/RaceDBRepository.java" dialect="PostgreSQL" />
+    <file url="file://$PROJECT_DIR$/server/src/main/java/server/repository/DBpersistence/TeamDBRepository.java" dialect="PostgreSQL" />
+  </component>
+</project>
