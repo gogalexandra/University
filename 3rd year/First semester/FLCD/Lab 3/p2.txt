@@ -1,0 +1,26 @@
+var a,noOfDiv,copie:int;
+read (a);
+if (a<=1){
+    write("Not prime");
+}
+else{
+    if (a==2){
+        write("Is prime");
+    }
+    else{
+        noOfDiv=0;
+        copie=2;
+        while(copie<a){
+            if(a%copie==0){
+                noOfDiv+=1
+            }
+            copie+=1
+        }
+        if (noOfDiv!=0){
+            write("Is prime");
+        }
+        else{
+            write("Not prime");
+        }
+    }
+}
