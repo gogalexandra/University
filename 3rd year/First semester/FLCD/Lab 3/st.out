@@ -1,21 +1,11 @@
 Position   Associated values 
 0          None       
-1          ['Is prime'] 
+1          None       
 2          None       
 3          None       
 4          None       
-5          None       
+5          ['ab', 'ba'] 
 6          None       
-7          None       
-8          ['copie', '0'] 
-9          ['1']      
-10         ['2']      
-11         None       
-12         None       
-13         ['noOfDiv'] 
-14         None       
-15         None       
-16         None       
-17         ['a']      
-18         ['Not prime'] 
-19         None       
+7          ['a']      
+8          ['b']      
+9          None       

@@ -1,8 +1,8 @@
 var a,b:int;
-read (a);
-read (b);
+read (ab);
+read (ba);
 if (a > b){
-	write (a);
+	write (ab);
 }
 else{
 	write (b);

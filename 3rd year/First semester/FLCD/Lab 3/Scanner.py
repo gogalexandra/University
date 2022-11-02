@@ -37,7 +37,7 @@ class Scanner:
             first_pos = quote_indexes[0]
             second_pos = quote_indexes[1]
 
-            tokens = tokens[:first_pos + 1] + [''.join(tokens[first_pos + 1: second_pos])] + tokens[second_pos:]
+            tokens = tokens[:first_pos + 1] + ['"' + ''.join(tokens[first_pos + 1: second_pos]) + '"'] + tokens[second_pos:]
 
             quote_indexes.pop(0)
             quote_indexes.pop(0)
