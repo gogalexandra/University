@@ -136,9 +136,7 @@ class Scanner:
         index = 0
         while index < self.ST.symbolTable.capacity:
             node = self.ST.symbolTable.items[index]
-            if node is None:
-                f.write("{:<10} {:<10} \n".format(index, "None"))
-            else:
+            if node is not None:
                 prev = self.ST.symbolTable.items[index]
                 list_of_values = []
                 while node is not None:
@@ -146,5 +144,6 @@ class Scanner:
                     prev = node
                     node = node.next
                 f.write("{:<10} {:<10} \n".format(index, str(list_of_values)))
+
             index += 1
 
