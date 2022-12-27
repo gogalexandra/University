@@ -1,0 +1,15 @@
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.exe
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.deps.json
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.runtimeconfig.json
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.dll
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ref\ConsoleApp1.dll
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\bin\Debug\net6.0\ConsoleApp1.pdb
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.AssemblyReference.cache
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfoInputs.cache
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.AssemblyInfo.cs
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.dll
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ref\ConsoleApp1.dll
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.pdb
+C:\UBB Sem 5\PDP\Lab4ByMe\ConsoleApp1\obj\Debug\net6.0\ConsoleApp1.genruntimeconfig.cache
