@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@angular/common": "^14.0.0",
-    "@angular/material": "^14.0.0"
-  }
-}
