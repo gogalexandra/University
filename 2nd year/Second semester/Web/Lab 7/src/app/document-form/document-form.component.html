@@ -1,0 +1,32 @@
+<h1 mat-dialog-title>Document form</h1>
+<div mat-dialog-content>
+  <p>Id:</p>
+  <mat-form-field>
+    <input [readonly]="true" [(ngModel)]="data.id">
+  </mat-form-field>
+  <p>Title:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.title">
+  </mat-form-field>
+  <p>Author:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.author">
+  </mat-form-field>
+  <p>Number of pages:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.noOfPages">
+  </mat-form-field>
+  <p>Type:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.type">
+  </mat-form-field>
+  <p>Format:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.format">
+  </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Ok</button>
+</div>

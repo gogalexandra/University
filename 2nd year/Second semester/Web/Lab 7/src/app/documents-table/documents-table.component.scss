@@ -1,0 +1,58 @@
+.table {
+    width: 100%;
+}
+.mat-row .mat-cell {
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    cursor: pointer;
+  }
+  
+.mat-row:hover .mat-cell {
+border-color: currentColor;
+}
+
+.demo-row-is-clicked {
+font-weight: bold;
+}
+
+.example-button-container {
+    display: flex;
+    justify-content: center;
+    width: 120px;
+}
+
+table {
+    width: 100%;
+    table-layout: fixed;
+}
+  
+th, td {
+    overflow: hidden;
+    width: 200px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.add-btn{
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase; 
+    background-color: rgb(55, 122, 151); 
+}
+
+.edit-btn{
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase; 
+    background-color: rgb(55, 122, 151); 
+}
+
+.delete-btn{
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;  
+    background-color: rgb(218, 91, 91); 
+}
