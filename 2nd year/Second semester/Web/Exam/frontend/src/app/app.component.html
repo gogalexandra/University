@@ -1,0 +1,13 @@
+<div class="form">
+  <form name="loginForm" (ngSubmit)="loginForm.valid && onSubmit()">
+    <div>
+      <label for="username">UserName:</label>
+      <input id="username" #userName type="text" formControlName="username" required placeholder="username">
+      <button class="login-button" (click)="connect(username)">
+        <a [routerLink]="['/projects']">Connect</a>
+      </button>
+    </div>
+  </form>
+</div>
+
+<router-outlet></router-outlet>

@@ -1,0 +1,15 @@
+
+<div>
+    <form name="addForm" (ngSubmit)="addForm.valid">
+        <div>
+          <label for="projectname">Project name:</label>
+          <input id="projectname" #projectname type="text" formControlName="projectname" required placeholder="projectname">
+
+          <label for="developername">Developer name:</label>
+          <input id="developername" #developername type="text" formControlName="developername" required placeholder="developername">
+
+          <button class="button" (click)="addDeveloper(projectname.value, developername.value)">
+          </button>
+        </div>
+      </form>
+</div>    

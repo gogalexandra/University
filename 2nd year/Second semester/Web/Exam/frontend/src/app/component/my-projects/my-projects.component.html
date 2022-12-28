@@ -1,0 +1,10 @@
+<h2>My Projects</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="products">
+      <li ngClass="{'isSelected': 'selectedProduct' !== undefined }" *ngFor="let project of projects" (click)="onSelect(project)">
+        Name: {{project.name}} 
+      </li>
+    </ul>
+  </div>  
+</div>

@@ -1,0 +1,17 @@
+<h2>Projects</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="products">
+      <li ngClass="{'isSelected': 'selectedProduct' !== undefined }" *ngFor="let project of projects" (click)="onSelect(project)">
+        <span class="badge">{{project.id}}</span>  ProjectManagerID: {{project.ProjectManagerID}} Name: {{project.name}} description:{{project.description}} members: {{project.members}}
+      </li>
+    </ul>
+  </div>  
+  <button class="myprojects-button">
+    <a [routerLink]="['/myprojects']">My projects</a>
+  </button>
+
+  <button class="myprojects-button">
+    <a [routerLink]="['/developer']">Add developer</a>
+  </button>
+</div>
