@@ -1,0 +1,59 @@
+<h2>Teams</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="teams">
+      <li *ngFor="let team of teams" [class.selected]="team === selectedTeam" (click)="onSelect(team)">
+        <span class="badge">{{team.id}}</span>{{team.name}}
+        <button class="delete" title="Delete team"
+                (click)="delete(team)">x
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="operations">
+    <div class="form">
+      <form name="addTeam" [formGroup]="addTeamForm" (ngSubmit)="addTeamForm.valid && onSubmit()">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" #teamName type="text" formControlName="teamName"
+                required placeholder="name">
+          <button class="add-button" (click)="add(teamName.value)">Add team</button>
+
+        </div>
+      </form>
+    </div>
+
+    <div *ngIf="selectedTeam">
+      <h2>{{selectedTeam.name}} was selected</h2>
+      <div *ngIf="selectedTeam" class="formInputFields">
+        <div>
+          <label>
+            Id: {{selectedTeam.id}}
+          </label>
+        </div>
+        <div>
+          <label>Name: </label>
+          <input [(ngModel)]="selectedTeam.name" placeholder="teamName">
+          <button class="add-button" (click)="save(selectedTeam.name)">Save</button>
+        </div>
+      </div>
+
+      <div *ngFor="let driver of driversOfTeam">
+        <label>
+          Driver:
+          <span>{{driver.name}}</span>
+
+        </label>
+        <button mat-button (click)="onDeleteClick(driver.id)">X</button>
+      </div>    
+        <div>
+            <label>Driver's id: </label>
+            <input [(ngModel)]="driverId" placeholder="Driver's id">
+            <button mat-button (click)="addDriverToTeam()">Add to team</button>
+        </div>
+    </div>
+
+  </div>
+</div>
+

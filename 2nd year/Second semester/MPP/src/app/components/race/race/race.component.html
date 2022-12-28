@@ -1,0 +1,51 @@
+<h2>Races</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="races">
+      <li *ngFor="let race of races" (click)="onSelect(race)">
+        <span class="badge">{{race.id}}</span>{{race.location}} takes place in {{race.date}}
+        <button class="delete" title="Delete race"
+                (click)="delete(race)">x
+        </button>
+      </li>
+    </ul>
+  </div>
+
+  <div class="operations">
+    <div class="form">
+      <form name="addRace" [formGroup]="addRaceForm" (ngSubmit)="addRaceForm.valid && onSubmit()">
+        <div>
+          <label for="location">Location:</label>
+          <input id="location" #raceLocation type="text" formControlName="raceLocation"
+                  required placeholder="name">
+          <label for="date">Date:</label>
+          <input id="date" #raceDate type="text" formControlName="raceDate"
+                  required placeholder="date">
+          <button class="add-button" (click)="add(raceLocation.value, raceDate.value)">Add race</button>
+
+        </div>
+      </form>
+    </div>
+    <div *ngIf="selectedRace">
+      <h2>{{selectedRace.location }} was selected</h2>
+      <div *ngIf="selectedRace" class="formInputFields">
+        <div>
+          <label>
+            Id: {{selectedRace.id}}
+          </label>
+        </div>
+    
+        <div>
+          <label>Location: </label>
+          <input [(ngModel)]="selectedRace.location" placeholder="location">
+          <label>Date: </label>
+          <input [(ngModel)]="selectedRace.date" placeholder="date">
+          <button class="add-button" (click)="save(selectedRace.location, selectedRace.date)">Save</button>
+        </div>
+    
+      </div>
+    </div>
+  </div>  
+</div>
+
+

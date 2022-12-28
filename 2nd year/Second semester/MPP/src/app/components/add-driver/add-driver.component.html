@@ -1,0 +1,45 @@
+ <div class="operations">
+    <div class="form">
+      <form name="addDriver" [formGroup]="addDriverForm" (ngSubmit)="addDriverForm.valid && onSubmit()">
+        <div>
+          <label for="name">Name:</label>
+          <input id="name" #driverName type="text" formControlName="driverName" required placeholder="name">
+          <label for="experience">Experience:</label>
+          <input id="experience" #driverExperience type="number" formControlName="driverExperience" required placeholder="experience">
+          <label for="name">Team:</label>
+          <input id="team" #driverTeam type="number" formControlName="driverTeam" required placeholder="team">
+          <button class="add-button" (click)="add(driverName.value, driverExperience.value, driverTeam.value)">Add driver</button>
+        </div>
+      </form>
+    </div>
+
+    <div *ngIf="selectedDriver">
+      <h2>{{selectedDriver.name}} was selected</h2>
+      <div *ngIf="selectedDriver" class="formInputFields">
+        <div>
+          <label>
+            Id: {{selectedDriver.id}}
+          </label>
+        </div>
+    
+        <div>
+          <label>Name: </label>
+          <input [(ngModel)]="selectedDriver.name" placeholder="name">
+        </div>
+        
+        <div>
+          <label>Experience: </label>
+          <input [(ngModel)]="selectedDriver.experience" placeholder="experience">
+        </div>
+
+        <div>
+          <label>Team: </label>
+          <input [(ngModel)]="selectedDriver.team" placeholder="team">
+          <button class="add-button" (click)="save(selectedDriver.name, selectedDriver.experience, selectedDriver.team)">Save</button>
+        </div>
+        
+      </div>
+    </div>
+
+
+  </div>

@@ -1,0 +1,30 @@
+<h2>Participations</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="participations">
+      <li *ngFor="let participation of participations" [class.selected]="participation === selectedParticipation" (click)="onSelect(participation)">
+        <span class="badge">{{participation.id}}</span>Team {{participation.team}} in race {{participation.race}}
+        <button class="delete" title="delete participation"
+                (click)="delete(participation)">x
+        </button>
+      </li>
+    </ul>
+  </div>
+  <div class="form">
+    <form name="addParticipation" [formGroup]="addParticipationForm" (ngSubmit)="addParticipationForm.valid && onSubmit()">
+      <div>
+        <label for="teamId">Team id:</label>
+        <input id="teamId" #teamId type="number" formControlName="teamId"
+               required placeholder="team id">
+      </div>
+      <div>
+        <label for="raceId">Race id:</label>
+        <input id="raceId" #raceId type="number" formControlName="raceId"
+               required placeholder="race id">
+        <button class="add-button" (click)="add(+teamId.value, +raceId.value )" >Add participation</button>
+
+      </div>
+    </form>
+  </div>
+</div>
+
