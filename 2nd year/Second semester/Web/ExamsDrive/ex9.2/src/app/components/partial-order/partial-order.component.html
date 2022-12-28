@@ -1,0 +1,16 @@
+<h2>Partial orders</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="products">
+      <li *ngFor="let pO of partialOrders">
+        <span class="badge">{{pO.id}}</span>{{pO.productId}} {{pO.quantity}}
+      </li>
+    </ul>
+  </div>
+
+  <button class="add-button" (click)="saveCart()">Finalize command</button>
+  <button class="add-button" (click)="emptyCart()">Cancel command</button>
+  <button class="add-button">
+    <a [routerLink]="['/products']">Go back</a>
+  </button>
+</div>

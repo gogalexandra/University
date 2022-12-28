@@ -1,0 +1,9 @@
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-button{
+    border-radius: 12px;
+}

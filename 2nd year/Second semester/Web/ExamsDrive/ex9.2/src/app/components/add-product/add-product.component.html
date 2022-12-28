@@ -1,0 +1,30 @@
+<div class="operations">
+    <div class="form">
+      <form name="addProductForm" (ngSubmit)="addProductForm.valid && onSubmit()">
+        <div>
+          <label for="productName">Name:</label>
+          <input id="productName" #productName type="text" formControlName="productName"
+                  required placeholder="name">
+          <label for="productDescription">Description:</label>
+          <input id="productDescription" #productDescription type="text" formControlName="productDescription"
+                  required placeholder="productDescription">
+          <button class="add-button" (click)="add(productName.value, productDescription.value)">Add product</button>
+
+        </div>
+      </form>
+    </div>
+    <div *ngIf="selectedProduct">
+      <h2>{{selectedProduct.name }} was selected</h2>
+      <div *ngIf="selectedProduct" class="formInputFields">
+        <div>
+          <label>
+            Id: {{selectedProduct.id}}
+          </label>
+        </div>
+      </div>
+    </div>
+
+    <button class="add-button">
+        <a [routerLink]="['/products']">Go back</a>
+      </button>
+</div>

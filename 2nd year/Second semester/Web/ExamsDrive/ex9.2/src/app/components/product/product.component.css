@@ -1,0 +1,93 @@
+.products {
+    margin: 0 0 2em 0;
+    list-style-type: none;
+    padding: 0;
+    width: 25em;
+  }
+  
+  .products li {
+    cursor: pointer;
+    position: relative;
+    left: 0;
+    background-color: #EEE;
+    margin: .5em;
+    padding: .3em 0;
+    height: 1.6em;
+    border-radius: 4px;
+  }
+  .products li:hover {
+    color: #000000;
+    background-color: #ef5146;
+    left: .1em;
+  }
+  .products li.selected {
+    background-color: #f93d30;
+    color: white;
+  }
+  .products li.selected:hover {
+    background-color: #ef5146;
+    color: white;
+  }
+  .products li.selected:active {
+    background-color: #f93d30;
+    color: white;
+  }
+  .products .isSelected{
+    background-color: #f93d30;
+
+  }
+
+  .products .badge {
+    display: inline-block;
+    font-size: small;
+    color: white;
+    padding: 0.8em 0.7em 0 0.7em;
+    background-color:#f11607;
+    line-height: 1em;
+    position: relative;
+    left: -1px;
+    top: -4px;
+    height: 1.8em;
+    margin-right: .8em;
+    border-radius: 4px 0 0 4px;
+  }
+
+  .products .operations {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-button {
+    padding: 0.6rem;
+    text-decoration: none;
+    margin-left: 10px;
+    display: inline-block;
+    background-color: #e8e8e8;
+    color: #000;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    color: white;
+    background-color: #f11c1c;
+  }
+
+  input {
+    padding: .5rem;
+  }
+  label {
+    color:#000;
+    font-weight: bold;
+  }
+  input {
+    font-size: 1em;
+    padding: .5rem;
+  }
+  
+  .invalid-form {
+    font-family: "Comic Sans MS", cursive;
+    color: darkred;
+    font-size: small;
+  }
+  
+  

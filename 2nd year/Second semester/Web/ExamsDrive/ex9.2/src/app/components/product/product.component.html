@@ -1,0 +1,29 @@
+<h2>Products</h2>
+<div style="display: flex; justify-content: space-evenly">
+  <div style="display: flex; flex-direction: column; justify-content: space-evenly">
+    <ul class="products">
+      <li ngClass="{'isSelected': 'selectedProduct' !== undefined }" *ngFor="let product of products" (click)="onSelect(product)">
+        <span class="badge">{{product.id}}</span>{{product.name}} {{product.description}}
+      </li>
+    </ul>
+    <form>
+      <label for="search">Search product:</label>
+      <input type="string" id="search" name="search"><br><br>
+      <input type="submit" value="AddToCart" (click)="serchProduct(search)">
+    </form>
+  </div>
+  <form>
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" name="quantity"><br><br>
+    <input type="submit" value="AddToCart" (click)="addToCart(quantity)">
+  </form>
+  <button class="add-button">
+    <a [routerLink]="['/add-product']">Add product to list</a>
+  </button>
+  <button class="add-button">
+    <a [routerLink]="['/cart']" [queryParams]="{partialOrders: {partialOrders}}">See cart</a>
+  </button>
+  <button class="add-button">
+    <a [routerLink]="['/orders']">See prev orders</a>
+  </button>
+</div>
