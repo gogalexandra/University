@@ -1,0 +1,28 @@
+﻿  uic QtWidgetsApplication1.ui
+  rcc QtWidgetsApplication1.qrc
+  moc QtWidgetsApplication1.h
+   RCC: Warning: No resources in 'E:\Sem 2\Oop\cs-ubbcluj-ro\a89-gogalexandra-1\new\QtWidgetsApplication1\QtWidgetsApplication1\QtWidgetsApplication1.qrc'.
+  Table.cpp
+  Adoptions.cpp
+  Csv2.cpp
+  Entity.cpp
+  Html.cpp
+  Html2.cpp
+  Repository.cpp
+  Service.cpp
+  STLVector.cpp
+  Test.cpp
+E:\Sem 2\Oop\cs-ubbcluj-ro\a67\Project1\Project1\Service.cpp(46): warning C4715: 'Service::addDogToRepo': not all control paths return a value
+E:\Sem 2\Oop\cs-ubbcluj-ro\a67\Project1\Project1\Service.cpp(74): warning C4715: 'Service::updateDogFromRepo': not all control paths return a value
+  TextAdoption.cpp
+  TextRepo.cpp
+  UI.cpp
+  Validator.cpp
+  Exec.cpp
+  GUI2.cpp
+  MAIN.cpp
+  Operations.cpp
+  QtWidgetsApplication1.cpp
+  qrc_QtWidgetsApplication1.cpp
+  moc_QtWidgetsApplication1.cpp
+  QtWidgetsApplication1.vcxproj -> E:\Sem 2\Oop\cs-ubbcluj-ro\a89-gogalexandra-1\new\QtWidgetsApplication1\x64\Debug\QtWidgetsApplication1.exe

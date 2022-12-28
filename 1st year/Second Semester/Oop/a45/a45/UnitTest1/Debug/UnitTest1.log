@@ -1,0 +1,5 @@
+﻿  UnitTest1.cpp
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\UnitTest1\UnitTest1.cpp(30,4): warning C4002: too many arguments for function-like macro invocation 'assert'
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\UnitTest1\UnitTest1.cpp(31,4): warning C4002: too many arguments for function-like macro invocation 'assert'
+     Creating library E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\UnitTest1.lib and object E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\UnitTest1.exp
+  UnitTest1.vcxproj -> E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\UnitTest1.dll

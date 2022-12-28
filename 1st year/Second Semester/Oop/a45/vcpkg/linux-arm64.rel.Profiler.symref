@@ -1,0 +1,3 @@
+﻿linux-arm64/libJetBrains.Profiler.Core.so.debug    _.debug/elf-buildid-sym-77be7813f58674793a5e4cb80e87c92018afb69b/_.debug
+linux-arm64/libJetBrains.Profiler.CoreApi.so.debug _.debug/elf-buildid-sym-8a55da40041a1022f20fa9c121d9b7980b5fd356/_.debug
+linux-arm64/JetBrains.Profiler.PdbServer.debug     _.debug/elf-buildid-sym-a82e6f7cff3f71a9833658cb51e9e646745a65fe/_.debug

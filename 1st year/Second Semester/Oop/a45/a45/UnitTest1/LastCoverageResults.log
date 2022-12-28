@@ -1,0 +1,21 @@
+[2021-03-24 12:06:52] [info] Start Program:
+Path:"E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\Debug\\UnitTest1.dll"
+Arguments:
+Working directory: "E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\UnitTest1\\"
+Modules: Selected: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\a45.exe E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\UnitTest1.dll Excluded: 
+Sources: Selected: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\a45 E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\UnitTest1 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\gogan\AppData\Local\Temp\tgx2tcal.b2r 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-03-24 12:06:52] [error] Error: Cannot run process, check if it is a valid executable:
+Path:"E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\Debug\\UnitTest1.dll"
+Arguments:
+Working directory: "E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\UnitTest1\\"Last error code:193

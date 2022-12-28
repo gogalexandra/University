@@ -1,0 +1,5 @@
+E:/Ubb - Sem 2/Oop/cs-ubbcluj-ro/OOP/Lectures/Lecture_8/widgets/Project1/CMakeProject1/out/build/x64-Debug (default)/CMakeFiles/edit_cache.dir
+E:/Ubb - Sem 2/Oop/cs-ubbcluj-ro/OOP/Lectures/Lecture_8/widgets/Project1/CMakeProject1/out/build/x64-Debug (default)/CMakeFiles/rebuild_cache.dir
+E:/Ubb - Sem 2/Oop/cs-ubbcluj-ro/OOP/Lectures/Lecture_8/widgets/Project1/CMakeProject1/out/build/x64-Debug (default)/CMakeProject1/CMakeFiles/CMakeProject1.dir
+E:/Ubb - Sem 2/Oop/cs-ubbcluj-ro/OOP/Lectures/Lecture_8/widgets/Project1/CMakeProject1/out/build/x64-Debug (default)/CMakeProject1/CMakeFiles/edit_cache.dir
+E:/Ubb - Sem 2/Oop/cs-ubbcluj-ro/OOP/Lectures/Lecture_8/widgets/Project1/CMakeProject1/out/build/x64-Debug (default)/CMakeProject1/CMakeFiles/rebuild_cache.dir

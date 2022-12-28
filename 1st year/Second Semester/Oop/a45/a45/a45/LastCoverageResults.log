@@ -1,0 +1,21 @@
+[2021-03-31 08:57:52] [info] Start Program:
+Path:"E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\Debug\\a45.exe"
+Arguments:
+Working directory: "E:\\Ubb - Sem 2\\Oop\\cs-ubbcluj-ro\\a45-gogalexandra-1\\a45\\a45\\"
+Modules: Selected: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\a45.exe Excluded: 
+Sources: Selected: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\a45 Excluded: 
+Log Level: Normal
+Cover Children: 0
+Aggregate by file: 1
+Continue after C++ exception: 0
+Optimized build support: 0
+Export: binary C:\Users\gogan\AppData\Local\Temp\sgh2nynj.f42 
+Input coverage: 
+Unified diff: 
+Excluded line regular expressions: 
+Substitute pdb source paths: 
+
+[2021-03-31 08:57:52] [info] Module: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\a45.exe is selected because it matches selected pattern: E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a45-gogalexandra-1\a45\Debug\a45.exe
+[2021-03-31 08:57:52] [info] ----------------------------------------------------
+[2021-03-31 08:57:52] [info] Coverage binary generated in file: C:\Users\gogan\AppData\Local\Temp\sgh2nynj.f42
+[2021-03-31 08:57:52] [info] ----------------------------------------------------

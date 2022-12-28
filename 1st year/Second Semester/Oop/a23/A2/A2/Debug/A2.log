@@ -1,0 +1,6 @@
+﻿  UndoService.c
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a23-gogalexandra-1\A2\A2\UndoService.c(9,40): warning C4013: 'malloc' undefined; assuming extern returning int
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a23-gogalexandra-1\A2\A2\UndoService.c(31,14): warning C4098: 'destroyUR': 'void' function returning a value
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a23-gogalexandra-1\A2\A2\UndoService.c(37,6): warning C4013: 'free' undefined; assuming extern returning int
+E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a23-gogalexandra-1\A2\A2\UndoService.c(80,12): warning C4133: 'function': incompatible types - from 'UndoService *' to 'MaterialRepository *'
+  A2.vcxproj -> E:\Ubb - Sem 2\Oop\cs-ubbcluj-ro\a23-gogalexandra-1\A2\Debug\A2.exe
