@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/actvNameView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/pink"
+        android:textColorLink="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/actvDateView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Date "
+        android:inputType="date"
+        android:textColorHighlight="@color/pink"
+        android:textColorLink="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actvNameView" />
+
+    <EditText
+        android:id="@+id/actvInfoView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Information"
+        android:inputType="textPersonName"
+        android:textColorHighlight="@color/pink"
+        android:textColorLink="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actvDateView" />
+
+    <EditText
+        android:id="@+id/actvStartView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="Start time"
+        android:inputType="number"
+        android:textColorHighlight="@color/pink"
+        android:textColorLink="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actvInfoView" />
+
+    <EditText
+        android:id="@+id/actvEndView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="End time"
+        android:inputType="number"
+        android:textColorHighlight="@color/pink"
+        android:textColorLink="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actvStartView" />
+
+    <Button
+        android:id="@+id/confirmBtn"
+        android:layout_width="104dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="24dp"
+        android:text="Confirm"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/actvEndView" />
+
+    <Button
+        android:id="@+id/deleteBtn"
+        android:layout_width="107dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="24dp"
+        android:text="Delete"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/confirmBtn" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

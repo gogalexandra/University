@@ -1,0 +1,38 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Plan it
+      {{data.id}}
+
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  [fullscreen]="true">
+  <ion-datetime-button datetime="datetime"></ion-datetime-button>
+  <ion-modal [keepContentsMounted]="true">
+    <ng-template>
+      <ion-datetime id="datetime"></ion-datetime>
+    </ng-template>
+  </ion-modal>
+
+  <ion-list *ngIf="!isDialogOpen" >
+    <ion-item-sliding *ngFor="let task of tasks">
+      <ion-item >
+        {{task.name}}
+      </ion-item>
+        <ion-item-options>
+          <ion-item-option (click)="openDialog2(task)">Edit</ion-item-option>
+          <ion-item-option color="danger" (click)="presentAlert(task)">Delete</ion-item-option>
+        </ion-item-options>
+    </ion-item-sliding>
+  </ion-list>
+
+  <ion-fab slot="fixed" vertical="bottom" horizontal="end">
+  
+      <ion-fab-button (click)="openDialog()">
+        <ion-icon name="add"></ion-icon>
+      </ion-fab-button>
+    
+  </ion-fab>
+</ion-content>

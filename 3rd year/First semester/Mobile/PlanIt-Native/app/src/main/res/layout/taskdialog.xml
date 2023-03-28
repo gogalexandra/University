@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/taskNameView"
+        android:layout_width="223dp"
+        android:layout_height="73dp"
+        android:layout_marginTop="36dp"
+        android:ems="10"
+        android:hint="Task name"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/taskInfoView"
+        android:layout_width="220dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:hint="Task information"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskNameView" />
+
+    <EditText
+        android:id="@+id/taskDurationView"
+        android:layout_width="224dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="72dp"
+        android:ems="10"
+        android:hint="Task duration"
+        android:inputType="number"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskInfoView" />
+
+    <Button
+        android:id="@+id/taskConfirmationButton"
+        android:layout_width="107dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="88dp"
+        android:clickable="false"
+        android:text="Confirm"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskDurationView" />
+
+    <Button
+        android:id="@+id/taskDeleteBtn"
+        android:layout_width="106dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:text="Delete"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/pink"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskConfirmationButton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

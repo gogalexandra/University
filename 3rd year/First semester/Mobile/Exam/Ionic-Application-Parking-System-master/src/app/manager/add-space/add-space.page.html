@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Add element</ion-title>
+    <ion-icon name="close" slot="end" size="large" class="ion-padding" (click)="dismiss()"></ion-icon>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-item>
+      <ion-textarea [(ngModel)]="number" placeholder="Enter number"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-textarea [(ngModel)]="address" placeholder="Enter address"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-textarea [(ngModel)]="status" placeholder="Enter status"></ion-textarea>
+    </ion-item>
+    <ion-item>
+      <ion-textarea [(ngModel)]="count" placeholder="Enter count"></ion-textarea>
+    </ion-item>
+    <ion-button class="ion-margin" (click)="addElement()">Send</ion-button>
+  </ion-card>
+
+
+</ion-content>

@@ -1,0 +1,24 @@
+<h1 mat-dialog-title>Document form</h1>
+<div mat-dialog-content>
+  <p>Name:</p>
+  <mat-form-field>
+    <input [(ngModel)]="data.name">
+  </mat-form-field>
+  <p>Info:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.info">
+  </mat-form-field>
+  <p>Duration:</p>
+  <mat-form-field>
+    <input type ="number" matInput [(ngModel)]="data.duration">
+  </mat-form-field>
+  <p>Is done:</p>
+  <mat-form-field>
+    <input matInput [(ngModel)]="data.isDone">
+  </mat-form-field>
+
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Cancel</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial [disabled]="data.name === '' && data.info === '' && data.duration === 0.00 " >Ok</button>
+</div>
